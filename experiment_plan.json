@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "created": "2026-10-23",
+  "seed": 42,
+  "dataset_sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+  "split": "original UDI order, disjoint contiguous blocks; not a verified chronological or machine holdout",
+  "ranges_udi": {
+    "train": [
+      1,
+      5500
+    ],
+    "selection": [
+      5501,
+      7000
+    ],
+    "policy": [
+      7001,
+      8000
+    ],
+    "test": [
+      8001,
+      10000
+    ]
+  },
+  "models": [
+    "prevalence",
+    "logistic",
+    "boosting_raw",
+    "boosting_physics"
+  ],
+  "selection_metric": "average_precision on selection block; no test-based selection",
+  "threshold": "minimize 25 * false negatives + false positives on policy block",
+  "sensitivity_miss_costs": [
+    5,
+    10,
+    25,
+    50,
+    100
+  ],
+  "test_protocol": "Evaluate after model and policy are fixed. Do not retune using test results.",
+  "features": "Allowlist of six source sensors; optional temperature gap, mechanical power, wear-times-torque",
+  "bootstrap": {
+    "repeats": 500,
+    "block_size": 100,
+    "seed": 123
+  },
+  "scope": "Synthetic contemporaneous failure classification, not advance failure forecasting",
+  "implementation": "NumPy reference models; logistic Newton solver; 200 Newton trees, depth 4, 64 quantile bins fitted on training rows, minimum leaf 20, leaf L2 1, rate 0.08, leaf value clipped at 5. Revised before first benchmark because Windows Application Control blocked scikit-learn."
+}

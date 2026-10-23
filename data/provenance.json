@@ -1,0 +1,10 @@
+{
+  "name": "AI4I 2020 Predictive Maintenance Dataset",
+  "doi": "https://doi.org/10.24432/C5HS5C",
+  "license": "CC BY 4.0",
+  "downloaded": "2026-10-23",
+  "source_url": "https://archive.ics.uci.edu/static/public/601/ai4i+2020+predictive+maintenance+dataset.zip",
+  "zip_sha256": "f601f14294bcf190f9d720676b7f0aea46a26cde9ab8ebc7b4f8174d9d26b252",
+  "csv_sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+  "csv_modified": false
+}

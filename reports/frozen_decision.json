@@ -1,0 +1,130 @@
+{
+  "selected_model": "boosting_physics",
+  "threshold": 0.011716755082956706,
+  "selection": {
+    "prevalence": {
+      "average_precision": 0.020666666666666667,
+      "roc_auc": 0.5,
+      "brier_score": 0.020827250688705234,
+      "threshold": 0.5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 31,
+      "tn": 1469,
+      "recall": 0.0,
+      "precision": 0.0,
+      "alert_rate": 0.0,
+      "cost": 775.0,
+      "cost_per_1000": 516.6666666666666
+    },
+    "logistic": {
+      "average_precision": 0.5157941802080511,
+      "roc_auc": 0.9048947056369266,
+      "brier_score": 0.014389978772517286,
+      "threshold": 0.5,
+      "tp": 9,
+      "fp": 3,
+      "fn": 22,
+      "tn": 1466,
+      "recall": 0.2903225806451613,
+      "precision": 0.75,
+      "alert_rate": 0.008,
+      "cost": 553.0,
+      "cost_per_1000": 368.6666666666667
+    },
+    "boosting_raw": {
+      "average_precision": 0.42250297506338713,
+      "roc_auc": 0.9413799161158568,
+      "brier_score": 0.015541829150408193,
+      "threshold": 0.5,
+      "tp": 7,
+      "fp": 6,
+      "fn": 24,
+      "tn": 1463,
+      "recall": 0.22580645161290322,
+      "precision": 0.5384615384615384,
+      "alert_rate": 0.008666666666666666,
+      "cost": 606.0,
+      "cost_per_1000": 404.0
+    },
+    "boosting_physics": {
+      "average_precision": 0.6109527528814158,
+      "roc_auc": 0.9354509321680318,
+      "brier_score": 0.012734364314765434,
+      "threshold": 0.5,
+      "tp": 14,
+      "fp": 10,
+      "fn": 17,
+      "tn": 1459,
+      "recall": 0.45161290322580644,
+      "precision": 0.5833333333333334,
+      "alert_rate": 0.016,
+      "cost": 435.0,
+      "cost_per_1000": 290.0
+    }
+  },
+  "policy_points": {
+    "5": {
+      "threshold": 0.35403837423440077,
+      "tp": 16,
+      "fp": 14,
+      "fn": 6,
+      "tn": 964,
+      "recall": 0.7272727272727273,
+      "precision": 0.5333333333333333,
+      "alert_rate": 0.03,
+      "cost": 44.0,
+      "cost_per_1000": 44.0
+    },
+    "10": {
+      "threshold": 0.35403837423440077,
+      "tp": 16,
+      "fp": 14,
+      "fn": 6,
+      "tn": 964,
+      "recall": 0.7272727272727273,
+      "precision": 0.5333333333333333,
+      "alert_rate": 0.03,
+      "cost": 74.0,
+      "cost_per_1000": 74.0
+    },
+    "25": {
+      "threshold": 0.011716755082956706,
+      "tp": 22,
+      "fp": 101,
+      "fn": 0,
+      "tn": 877,
+      "recall": 1.0,
+      "precision": 0.17886178861788618,
+      "alert_rate": 0.123,
+      "cost": 101.0,
+      "cost_per_1000": 101.0
+    },
+    "50": {
+      "threshold": 0.011716755082956706,
+      "tp": 22,
+      "fp": 101,
+      "fn": 0,
+      "tn": 877,
+      "recall": 1.0,
+      "precision": 0.17886178861788618,
+      "alert_rate": 0.123,
+      "cost": 101.0,
+      "cost_per_1000": 101.0
+    },
+    "100": {
+      "threshold": 0.011716755082956706,
+      "tp": 22,
+      "fp": 101,
+      "fn": 0,
+      "tn": 877,
+      "recall": 1.0,
+      "precision": 0.17886178861788618,
+      "alert_rate": 0.123,
+      "cost": 101.0,
+      "cost_per_1000": 101.0
+    }
+  },
+  "plan_sha256": "2187652053c7a61fdf63b9bf7fbb81ce56cf3ce4a6df697a117f662c43e58fa2",
+  "source_sha256": "d6bf269b5277f625ebe8ddeb1e6389777a24b859af79ac2a8cdf6e7bc4849add"
+}

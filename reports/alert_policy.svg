@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 490" role="img">
+<title>What the chosen alert policy does</title><desc>Illustrative cost = 25 x missed failures + false alerts; this is not measured money saved.</desc>
+<rect width="900" height="490" fill="#f7fafc"/>
+<text x="36" y="42" fill="#11243c" font-size="24" text-anchor="start" font-family="Arial,sans-serif">What the chosen alert policy does</text>
+<text x="36" y="67" fill="#34445c" font-size="13" text-anchor="start" font-family="Arial,sans-serif">Illustrative cost = 25 x missed failures + false alerts; this is not measured money saved.</text>
+<rect x="62" y="261.91" width="85" height="108.09" fill="#9ca9b9" rx="4"/>
+<text x="104" y="249.9140633660732" fill="#34445c" font-size="17" text-anchor="middle" font-family="Arial,sans-serif">975</text>
+<text x="104" y="394" fill="#34445c" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">Never alert</text>
+<rect x="194" y="152.61" width="85" height="217.39" fill="#9ca9b9" rx="4"/>
+<text x="236" y="140.60869565217388" fill="#34445c" font-size="17" text-anchor="middle" font-family="Arial,sans-serif">1961</text>
+<text x="236" y="394" fill="#34445c" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">Always alert</text>
+<rect x="326" y="321.44" width="85" height="48.56" fill="#6558d3" rx="4"/>
+<text x="368" y="309.4444715429129" fill="#34445c" font-size="17" text-anchor="middle" font-family="Arial,sans-serif">438</text>
+<text x="368" y="394" fill="#34445c" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">Threshold 0.5</text>
+<rect x="458" y="343.06" width="85" height="26.94" fill="#008579" rx="4"/>
+<text x="500" y="331.06165886969825" fill="#34445c" font-size="17" text-anchor="middle" font-family="Arial,sans-serif">243</text>
+<text x="500" y="394" fill="#34445c" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">Chosen policy</text>
+<text x="60" y="105" fill="#34445c" font-size="15" text-anchor="start" font-family="Arial,sans-serif">Total assumed cost units</text>
+<text x="665" y="145" fill="#008579" font-size="32" text-anchor="start" font-family="Arial,sans-serif">34</text>
+<text x="665" y="169" fill="#34445c" font-size="14" text-anchor="start" font-family="Arial,sans-serif">Detected failures</text>
+<text x="665" y="233" fill="#be4b4b" font-size="32" text-anchor="start" font-family="Arial,sans-serif">5</text>
+<text x="665" y="257" fill="#34445c" font-size="14" text-anchor="start" font-family="Arial,sans-serif">Missed failures</text>
+<text x="665" y="321" fill="#a56b15" font-size="32" text-anchor="start" font-family="Arial,sans-serif">118</text>
+<text x="665" y="345" fill="#34445c" font-size="14" text-anchor="start" font-family="Arial,sans-serif">False alerts</text>
+<text x="36" y="443" fill="#34445c" font-size="15" text-anchor="start" font-family="Arial,sans-serif">Threshold 0.011717 | recall 87.2% | precision 22.4% | alert rate 7.6%</text>
+<text x="36" y="470" fill="#34445c" font-size="12" text-anchor="start" font-family="Arial,sans-serif">Threshold chosen on UDI 7001-8000. These measurements use the separate UDI 8001-10000 test block.</text>
+</svg>

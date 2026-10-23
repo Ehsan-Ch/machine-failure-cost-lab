@@ -1,0 +1,13 @@
+.deps/
+.venv/
+__pycache__/
+*.py[cod]
+.mplconfig/
+.ipynb_checkpoints/
+*.joblib
+data/source.zip
+.env
+.env.*
+*.log
+local_predictions.csv
+reports/reproduction/
